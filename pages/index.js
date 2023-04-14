@@ -13,7 +13,7 @@ export default function Home() {
 						<a href="#" className="-m-1.5 p-1.5">
 						{/* <span className="sr-only">Your Company</span> */}
 						<span className="text-white font-bold">Coffee<span className='txt-primary-coffee'>tuck</span></span>
-						{/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
+						{/* <Image className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
 						</a>
 					</div>
 					<div className="flex lg:hidden">
@@ -59,7 +59,7 @@ export default function Home() {
 						<div className="flex items-center justify-between">
 						<a href="#" className="-m-1.5 p-1.5">
 							<span className="sr-only">Your Company</span>
-							<img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+							{/* <Image className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
 						</a>
 						<button type="button" className="-m-2.5 rounded-md p-2.5 text-gray-700">
 							<span className="sr-only">Close menu</span>
@@ -93,7 +93,7 @@ export default function Home() {
 					<div className="grid py-40">
 						<span className="border-r border-primary-coffee w-48 font-sm text-sm p-2 border-l border-t border-b text-white">
 							Welcome to coffee hut
-							{/* &nbsp; <img src="/assets/coffeehut.png" width={20} height={20}/> */}
+							{/* &nbsp; <Image src="/assets/coffeehut.png" width={20} height={20}/> */}
 						</span>
 						<span className="txt-primary-coffee text-4xl font-bold py-4">
 							Heal the world<br/> with coffee
@@ -125,28 +125,17 @@ export default function Home() {
 
 					</div>
 					<div className="grid py-20 justify-end">
-						<img src="/assets/cupcoffee-head.png" width={400}/>
+						<Image src="/assets/cupcoffee-head.png" width={400} height={400}/>
 					</div>
 				</div>
 			</div>
-
-
-			{/* <div className="isolate px-6 pt-14 lg:px-8 mx-48 p-20">
-				<div className="grid grid-cols-2 gap-4">
-					<div className="">
-					</div>
-					<div className="text-white">
-						02
-					</div>
-				</div>
-			</div> */}
 		</div>
 
 		{/* Section Best Coffee Maker */}
 		<div className="lg:px-8 mx-48 md:pt-16">
 			<div className="grid grid-cols-2 gap-4 relative">
 				<div className="">
-					<img src='/assets/coffeecup.png' />
+					<Image src='/assets/coffeecup.png' width={500} height={500}/>
 				</div>
 				<div className="p-6">
 					<span className="dark font-normal" style={{ backgroundImage: 'url("/assets/ellipse.svg")', backgroundRepeat: 'no-repeat', height: '40px', display: 'inline-block' }}>About us</span>
@@ -155,18 +144,18 @@ export default function Home() {
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 					</h6>
 					<div className="my-8">
-						<div>
-							<input type="checkbox" className="check-regular" checked disabled />
-							<label className="font-bold txt-primary-dark"> Experience Chefs</label><br/>
-						</div>
-						<div>
-							<input type="checkbox" className="check-fill" checked disabled />
-							<label className="font-bold txt-primary-dark"> Fresh & Organic Foods</label><br/>
-						</div>
-						<div>
-							<input type="checkbox" className="check-regular" checked disabled />
-							<label className="font-bold txt-primary-dark"> Different Coffee & Drinks</label><br/>
-						</div>
+					<div>
+						<input type="checkbox" className="check-regular" checked disabled />
+						<label className="font-bold txt-primary-dark"> Experience Chefs</label><br/>
+					</div>
+					<div>
+						<input type="checkbox" className="check-fill" checked disabled />
+						<label className="font-bold txt-primary-dark"> Fresh & Organic Foods</label><br/>
+					</div>
+					<div>
+						<input type="checkbox" className="check-regular" checked disabled />
+						<label className="font-bold txt-primary-dark"> Different Coffee & Drinks</label><br/>
+					</div>
 					</div>
 					<a href="#_"
 						className="inline-flex items-center justify-center w-full px-12 py-3 mb-2 text-lg text-white bg-[#BC9A6C] rounded-md hover:bg-green-400 sm:w-auto sm:mb-0"
@@ -193,21 +182,21 @@ export default function Home() {
 			<div className="grid grid-cols-3 gap-4">
 				<div className="justify-start">
 					<div className="flex p-6">
-						<div><img src="/assets/icon/ic-coffeecup.svg" width={100}/></div>
+						<div><Image src="/assets/icon/ic-coffeecup.svg" width={100} height={60}/></div>
 						<div style={{ textAlign: 'left' }}>
 							<h6 className="txt-primary-dark font-bold text-xl">Cappucino</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
 						</div>
 					</div>
 					<div className="flex p-6">
-						<div><img src="/assets/icon/ic-coffeelatte.svg" width={100}/></div>
+						<div><Image src="/assets/icon/ic-coffeelatte.svg" width={100} height={60}/></div>
 						<div style={{ textAlign: 'left' }}>
 							<h6 className="txt-primary-dark font-bold text-xl">Cafe latte</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
 						</div>
 					</div>
 					<div className="flex p-6">
-						<div><img src="/assets/icon/ic-coffeedark.svg" width={100}/></div>
+						<div><Image src="/assets/icon/ic-coffeedark.svg" width={100} height={60}/></div>
 						<div style={{ textAlign: 'left' }}>
 							<h6 className="txt-primary-dark font-bold text-xl">Dark coffee</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
@@ -215,13 +204,13 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="row-span-3 flex justify-center">
-					<img className='absolute' src="/assets/mccafe.png" width={200} height={200} />
+					<Image className='absolute' src="/assets/mccafe.png" width={200} height={200} />
 					<div className="grid grid-cols-2 gap-4">
 						<div className="...">
-							<img src="/assets/flower-l.png" width={150} height={150} style={{ marginTop: '100px', marginRight: '-20px' }}/>
+							<Image src="/assets/flower-l.png" width={150} height={150} style={{ marginTop: '100px', marginRight: '-20px' }}/>
 						</div>
 						<div className="...">
-							<img src="/assets/flower-r.png" width={150} height={150} style={{ marginTop: '100px', marginLeft: '-10px' }}/>
+							<Image src="/assets/flower-r.png" width={150} height={150} style={{ marginTop: '100px', marginLeft: '-10px' }}/>
 						</div>
 					</div>
 				</div>
@@ -231,21 +220,21 @@ export default function Home() {
 							<h6 className="txt-primary-dark font-bold text-xl">Turkish coffee</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
 						</div>
-						<div><img src="/assets/icon/ic-coffeeturkish.svg" width={100}/></div>
+						<div><Image src="/assets/icon/ic-coffeeturkish.svg" width={100} height={60}/></div>
 					</div>
 					<div className="flex p-6">
 						<div style={{ textAlign: 'left' }}>
 							<h6 className="txt-primary-dark font-bold text-xl">Pancakes</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
 						</div>
-						<div><img src="/assets/icon/ic-coffeepancake.svg" width={100}/></div>
+						<div><Image src="/assets/icon/ic-coffeepancake.svg" width={100} height={60}/></div>
 					</div>
 					<div className="flex p-6">
 						<div style={{ textAlign: 'left' }}>
 							<h6 className="txt-primary-dark font-bold text-xl">Coffee Bag</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
 						</div>
-						<div><img src="/assets/icon/ic-coffeebag.svg" width={100}/></div>
+						<div><Image src="/assets/icon/ic-coffeebag.svg" width={100} height={60}/></div>
 					</div>
 				</div>
 			</div>
@@ -255,7 +244,7 @@ export default function Home() {
 		<div className="lg:px-8 mx-48 md:pt-16">
 			<div className="grid grid-cols-2 gap-4 relative">
 				<div className="">
-					<img src='/assets/best-quality.png' />
+					<Image src='/assets/best-quality.png' width={600} height={600}/>
 				</div>
 				<div className="p-6">
 					<span className="dark font-normal" style={{ backgroundImage: 'url("/assets/ellipse.svg")', backgroundRepeat: 'no-repeat', height: '40px', display: 'inline-block' }}>Why Choose us</span>
@@ -265,21 +254,21 @@ export default function Home() {
 					</h6>
 					<div className="my-8">
 						<div className="flex my-3">
-							<img src="/assets/highqcoffee.svg" width={90} />
+							<Image src="/assets/highqcoffee.svg" width={90}  height={40}/>
 							<div className="px-4 md:w-3/4">
 								<label className="font-bold txt-primary-dark text-xl"> High quality coffee</label><br/>
 								<span className="txt-primary-dark text-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</span><br/>
 							</div>
 						</div>
 						<div className="flex my-3">
-							<img src="/assets/highqcoffee.svg" width={90} />
+							<Image src="/assets/highqcoffee.svg" width={90}  height={40}/>
 							<div className="px-4 md:w-3/4">
 								<label className="font-bold txt-primary-dark text-xl"> Best chef & Team</label><br/>
 								<span className="txt-primary-dark text-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</span><br/>
 							</div>
 						</div>
 						<div className="flex my-3">
-							<img src="/assets/highqcoffee.svg" width={90} />
+							<Image src="/assets/highqcoffee.svg" width={90}  height={40}/>
 							<div className="px-4 md:w-3/4">
 								<label className="font-bold txt-primary-dark text-xl"> Promo and deal</label><br/>
 								<span className="txt-primary-dark text-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</span><br/>
@@ -304,23 +293,23 @@ export default function Home() {
 				<div className="bg-slate-400 p-6 bg-secondary-coffee">
 					<div className="grid grid-rows-5 grid-flow-col gap-4">
 						<div className="bg-white h-20 flex px-4">
-							<img src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
+							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
 							<h6 className="font-semibold txt-primary-dark py-7 px-4">Americano</h6>
 						</div>
 						<div className="bg-primary-coffee h-20 flex px-4">
-							<img src="/assets/side-espresso.svg" className="py-2 " width={30} height={5}/>
+							<Image src="/assets/side-espresso.svg" className="py-2 " width={30} height={5}/>
 							<h6 className="font-semibold text-white py-7 px-4">Espresso</h6>
 						</div>
 						<div className="bg-white h-20 flex px-4">
-							<img src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
+							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
 							<h6 className="font-semibold txt-primary-dark py-7 px-4">Arabica</h6>
 						</div>
 						<div className="bg-white h-20 flex px-4">
-							<img src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
+							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
 							<h6 className="font-semibold txt-primary-dark py-7 px-4">Coffee Stimy</h6>
 						</div>
 						<div className="bg-white h-20 flex px-4">
-							<img src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
+							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
 							<h6 className="font-semibold txt-primary-dark py-7 px-4">Organic Pack</h6>
 						</div>
 					</div>
@@ -330,7 +319,7 @@ export default function Home() {
 						<div className="">
 							<div>
 								<div className="max-w-sm  overflow-hidden shadow-md">
-									<img className="w-full" src="/assets/coffebeans-1.png" alt="Sunset in the mountains" />
+									<Image className="w-full" src="/assets/coffebeans-1.png" alt="Sunset in the mountains" width={100} height={100} />
 									<div className="grid grid-cols-2 gap-4 p-4">
 										<div className="justify-items-start text-start">
 											<h6 className="txt-dark font-bold text-sm pb-2">Coffee Beans </h6>
@@ -359,7 +348,7 @@ export default function Home() {
 						</div>
 						<div className="">
 							<div className="max-w-sm  overflow-hidden shadow-md">
-								<img className="w-full" src="/assets/coffebeans-2.png" alt="Sunset in the mountains" />
+								<Image className="w-full" src="/assets/coffebeans-2.png" alt="Sunset in the mountains" width={100} height={100}  />
 								<div className="grid grid-cols-2 gap-4 p-4">
 									<div className="justify-items-start text-start">
 										<h6 className="txt-dark font-bold text-sm pb-2">Coffee Beans</h6>
@@ -387,7 +376,7 @@ export default function Home() {
 						</div>
 						<div className="">
 							<div className="max-w-sm  overflow-hidden shadow-md">
-								<img className="w-full" src="/assets/coffeebeans-3.png" alt="Sunset in the mountains" />
+								<Image className="w-full" src="/assets/coffeebeans-3.png" alt="Sunset in the mountains" width={100} height={100} />
 								<div className="grid grid-cols-2 gap-4 p-4">
 									<div className="justify-items-start text-start">
 										<h6 className="txt-dark font-bold text-sm pb-2">Coffee Beans</h6>
@@ -415,7 +404,7 @@ export default function Home() {
 						</div>
 						<div className="">
 							<div className="max-w-sm  overflow-hidden shadow-md">
-								<img className="w-full" src="/assets/coffeebeans-4.png" alt="Sunset in the mountains" />
+								<Image className="w-full" src="/assets/coffeebeans-4.png" alt="Sunset in the mountains" width={100} height={100} />
 								<div className="grid grid-cols-2 gap-4 p-4">
 									<div className="justify-items-start text-start">
 										<h6 className="txt-dark font-bold text-sm pb-2">Coffee Beans</h6>
@@ -443,7 +432,7 @@ export default function Home() {
 						</div>
 						<div className="">
 							<div className="max-w-sm  overflow-hidden shadow-md">
-								<img className="w-full" src="/assets/coffeebeans-5.png" alt="Sunset in the mountains" />
+								<Image className="w-full" src="/assets/coffeebeans-5.png" alt="Sunset in the mountains" width={100} height={100} />
 								<div className="grid grid-cols-2 gap-4 p-4">
 									<div className="justify-items-start text-start">
 										<h6 className="txt-dark font-bold text-sm pb-2">Coffee Beans</h6>
@@ -471,7 +460,7 @@ export default function Home() {
 						</div>
 						<div className="">
 							<div className="max-w-sm  overflow-hidden shadow-md">
-								<img className="w-full" src="/assets/coffeebeans-6.png" alt="Sunset in the mountains" />
+								<Image className="w-full" src="/assets/coffeebeans-6.png" alt="Sunset in the mountains" width={100} height={100} />
 								<div className="grid grid-cols-2 gap-4 p-4">
 									<div className="justify-items-start text-start">
 										<h6 className="txt-dark font-bold text-sm pb-2">Coffee Beans</h6>
@@ -515,72 +504,26 @@ export default function Home() {
 
 			<div className="grid grid-cols-4 gap-4">
 				<div className="px-2">
-					<img className="w-full" src="/assets/chef-1.png" alt="Sunset in the mountains" />
+					<Image className="w-full" src="/assets/chef-1.png" alt="Sunset in the mountains" width={300} height={400}/>
 					<h6 className="txt-dark text-sm font-bold pt-4">Bulbul Hassan</h6>
 					<span className="txt-dark text-xs">Chef</span>
 				</div>
 				<div className="px-2">
-					<img className="w-full" src="/assets/chef-2.png" alt="Sunset in the mountains" />
+					<Image className="w-full" src="/assets/chef-2.png" alt="Sunset in the mountains" width={300} height={400} />
 					<h6 className="txt-dark text-sm font-bold pt-4">Jorina Begum</h6>
 					<span className="txt-dark text-xs">Founder</span>
 				</div>
 				<div className="px-2">
-					<img className="w-full" src="/assets/chef-3.png" alt="Sunset in the mountains" />
+					<Image className="w-full" src="/assets/chef-3.png" alt="Sunset in the mountains" width={300} height={400} />
 					<h6 className="txt-dark text-sm font-bold pt-4">M. Mohammad Nur</h6>
 					<span className="txt-dark text-xs">Specialist</span>
 				</div>
 				<div className="px-2">
-					<img className="w-full" src="/assets/chef-4.png" alt="Sunset in the mountains" />
+					<Image className="w-full" src="/assets/chef-4.png" alt="Sunset in the mountains" width={300} height={400} />
 					<h6 className="txt-dark text-sm font-bold pt-4">Munna Kathy</h6>
 					<span className="txt-dark text-xs">Owner</span>
 				</div>
 			</div>
-
-		</div>
-
-		{/* Section our customer say */}
-		<div className="lg:px-8 mx-48 md:py-16 text-center">
-			<div className="bg-black py-8">
-				<span className="text-white text-xs font-extralight" style={{ backgroundImage: 'url("/assets/ellipse.svg")', backgroundRepeat: 'no-repeat', height: '40px', display: 'inline-block' }}>
-						Testimonials
-				</span>
-				<h5 className="font-bold text-3xl text-white">Our customer say</h5>
-				<div className="flex justify-center">
-					<img src="/assets/quotes.svg" className="justify-center"/>
-				</div>
-				<h6 className="text-white text-sm px-16 py-4 font-extralight">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh est nisi, ultricies. Consectetur et faucibus vivamus lorem hendrerit enim donec ut. Nec blandit vulputate varius at quis non. 
-				</h6>
-				<div className="flex justify-center px-4">
-					<img src="/assets/avatar.png" width={50}/>
-				</div>
-				<div className="p-4">
-					<h6 className="font-bold text-white text-md">William carry</h6>
-					<h6 className="text-white text-xs font-light">Founder & CEO</h6>
-				</div>
-			</div>
-			{/* <div className="grid grid-cols-2 gap-4 h-auto">
-				<div className="bg-black py-8">
-					<span className="text-white text-xs font-extralight" style={{ backgroundImage: 'url("/assets/ellipse.svg")', backgroundRepeat: 'no-repeat', height: '40px', display: 'inline-block' }}>
-						Testimonials
-					</span>
-					<h5 className="font-bold text-3xl text-white">Our customer say</h5>
-					<div className="flex justify-center">
-						<img src="/assets/quotes.svg" className="justify-center"/>
-					</div>
-					<h6 className="text-white text-sm px-16 py-4 font-extralight">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh est nisi, ultricies. Consectetur et faucibus vivamus lorem hendrerit enim donec ut. Nec blandit vulputate varius at quis non. 
-					</h6>
-					<div className="flex justify-center px-4">
-						<img src="/assets/avatar.png" width={50}/>
-					</div>
-					<div className="p-4">
-						<h6 className="font-bold text-white text-md">William carry</h6>
-						<h6 className="text-white text-xs font-light">Founder & CEO</h6>
-					</div>
-				</div>
-				<div className="...">02</div>
-			</div> */}
 		</div>
 
 		{/* Section latest news & blog*/}
@@ -595,14 +538,14 @@ export default function Home() {
 			</div>
 			<div className="grid grid-cols-3 gap-4">
 				<div className="px-2">
-					<img className="w-full" src="/assets/coffeeblog.png" alt="Sunset in the mountains" />
+					<Image className="w-full" src="/assets/coffeeblog.png" alt="Sunset in the mountains" width={300} height={400}/>
 					<div className="grid grid-cols-2 gap-4 px-4 py-2">
 						<div className="flex">
-							<img src="/assets/icon/ic-calendar.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-calendar.svg" width={18} height={5}/>
 							<h6 className="text-xs py-1 px-1">10 Feb, 2022</h6>
 						</div>
 						<div className="flex">
-							<img src="/assets/icon/ic-user.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-user.svg" width={18} height={5}/>
 							<h6 className="text-xs py-1 px-1">By Ataur</h6>
 						</div>
 					</div>
@@ -622,14 +565,14 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="px-2">
-					<img className="w-full" src="/assets/coffeeblog.png" alt="Sunset in the mountains" />
+					<Image className="w-full" src="/assets/coffeeblog.png" alt="Sunset in the mountains" width={300} height={400} />
 					<div className="grid grid-cols-2 gap-4 px-4 py-2">
 						<div className="flex">
-							<img src="/assets/icon/ic-calendar.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-calendar.svg" width={18} height={5}/>
 							<h6 className="text-xs py-1 px-1">10 Feb, 2022</h6>
 						</div>
 						<div className="flex">
-							<img src="/assets/icon/ic-user.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-user.svg" width={18} height={5}/>
 							<h6 className="text-xs py-1 px-1">By Ataur</h6>
 						</div>
 					</div>
@@ -649,14 +592,14 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="px-2">
-					<img className="w-full" src="/assets/coffeeblog.png" alt="Sunset in the mountains" />
+					<Image className="w-full" src="/assets/coffeeblog.png" alt="Sunset in the mountains" width={300} height={400} />
 					<div className="grid grid-cols-2 gap-4 px-4 py-2">
 						<div className="flex">
-							<img src="/assets/icon/ic-calendar.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-calendar.svg" width={18} height={5}/>
 							<h6 className="text-xs py-1 px-1">10 Feb, 2022</h6>
 						</div>
 						<div className="flex">
-							<img src="/assets/icon/ic-user.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-user.svg" width={18} height={5}/>
 							<h6 className="text-xs py-1 px-1">By Ataur</h6>
 						</div>
 					</div>
@@ -688,22 +631,22 @@ export default function Home() {
 			</div>
 			<div className="grid grid-flow-col auto-cols-max px-8 py-8">
 				<div className="px-8 align-middle">
-					<img src="/assets/partners/partner-1.svg"  width={150} />
+					<Image src="/assets/partners/partner-1.svg"  width={150} height={100}/>
 				</div>
 				<div className="px-8">
-					<img src="/assets/partners/partner-2.svg"  width={100}  />
+					<Image src="/assets/partners/partner-2.svg"  width={100}  height={100} />
 				</div>
 				<div className="px-8">
-					<img src="/assets/partners/partner-3.svg"  width={90}  />
+					<Image src="/assets/partners/partner-3.svg"  width={90}  height={100} />
 				</div>
 				<div className="px-8">
-					<img src="/assets/partners/partner-4.svg"  width={80}  />
+					<Image src="/assets/partners/partner-4.svg"  width={80}  height={100} />
 				</div>
 				<div className="px-8">
-					<img src="/assets/partners/partner-5.svg"  width={100}  />
+					<Image src="/assets/partners/partner-5.svg"  width={100} height={100}  />
 				</div>
 				<div className="px-8">
-					<img src="/assets/partners/partner-6.svg"  width={70}  />
+					<Image src="/assets/partners/partner-6.svg"  width={70}  height={100} />
 				</div>
 			</div>
 		</div>
@@ -779,121 +722,5 @@ export default function Home() {
 			</div>
 		</div>
 	</main>
-
-    // <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    //   <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-    //     <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-    //       Get started by editing&nbsp;
-    //       <code className="font-mono font-bold">pages/index.js</code>
-    //     </p>
-    //     <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-    //       <a
-    //         className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-    //         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-    //         target="_blank"
-    //         rel="noopener noreferrer"
-    //       >
-    //         By{' '}
-    //         <Image
-    //           src="/vercel.svg"
-    //           alt="Vercel Logo"
-    //           className="dark:invert"
-    //           width={100}
-    //           height={24}
-    //           priority
-    //         />
-    //       </a>
-    //     </div>
-    //   </div>
-
-    //   <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-    //     <Image
-    //       className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-    //       src="/next.svg"
-    //       alt="Next.js Logo"
-    //       width={180}
-    //       height={37}
-    //       priority
-    //     />
-    //   </div>
-
-    //   <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-    //     <a
-    //       href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-    //       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
-    //         Docs{' '}
-    //         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-    //           -&gt;
-    //         </span>
-    //       </h2>
-    //       <p
-    //         className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-    //       >
-    //         Find in-depth information about Next.js features and API.
-    //       </p>
-    //     </a>
-
-    //     <a
-    //       href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-    //       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
-    //         Learn{' '}
-    //         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-    //           -&gt;
-    //         </span>
-    //       </h2>
-    //       <p
-    //         className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-    //       >
-    //         Learn about Next.js in an interactive course with&nbsp;quizzes!
-    //       </p>
-    //     </a>
-
-    //     <a
-    //       href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-    //       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
-    //         Templates{' '}
-    //         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-    //           -&gt;
-    //         </span>
-    //       </h2>
-    //       <p
-    //         className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-    //       >
-    //         Discover and deploy boilerplate example Next.js&nbsp;projects.
-    //       </p>
-    //     </a>
-
-    //     <a
-    //       href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-    //       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
-    //         Deploy{' '}
-    //         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-    //           -&gt;
-    //         </span>
-    //       </h2>
-    //       <p
-    //         className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-    //       >
-    //         Instantly deploy your Next.js site to a shareable URL with Vercel.
-    //       </p>
-    //     </a>
-    //   </div>
-    // </main>
   )
 }
