@@ -125,7 +125,7 @@ export default function Home() {
 
 					</div>
 					<div className="grid py-20 justify-end">
-						<Image src="/assets/cupcoffee-head.png" width={400} height={400}/>
+						<Image src="/assets/cupcoffee-head.png" width={400} height={400} alt="content image"/>
 					</div>
 				</div>
 			</div>
@@ -135,7 +135,7 @@ export default function Home() {
 		<div className="lg:px-8 mx-48 md:pt-16">
 			<div className="grid grid-cols-2 gap-4 relative">
 				<div className="">
-					<Image src='/assets/coffeecup.png' width={500} height={500}/>
+					<Image src='/assets/coffeecup.png' width={500} height={500} alt="content image"/>
 				</div>
 				<div className="p-6">
 					<span className="dark font-normal" style={{ backgroundImage: 'url("/assets/ellipse.svg")', backgroundRepeat: 'no-repeat', height: '40px', display: 'inline-block' }}>About us</span>
@@ -182,21 +182,21 @@ export default function Home() {
 			<div className="grid grid-cols-3 gap-4">
 				<div className="justify-start">
 					<div className="flex p-6">
-						<div><Image src="/assets/icon/ic-coffeecup.svg" width={100} height={60}/></div>
+						<div><Image src="/assets/icon/ic-coffeecup.svg" width={100} height={60} alt="content image"/></div>
 						<div style={{ textAlign: 'left' }}>
 							<h6 className="txt-primary-dark font-bold text-xl">Cappucino</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
 						</div>
 					</div>
 					<div className="flex p-6">
-						<div><Image src="/assets/icon/ic-coffeelatte.svg" width={100} height={60}/></div>
+						<div><Image src="/assets/icon/ic-coffeelatte.svg" width={100} height={60} alt="content image"/></div>
 						<div style={{ textAlign: 'left' }}>
 							<h6 className="txt-primary-dark font-bold text-xl">Cafe latte</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
 						</div>
 					</div>
 					<div className="flex p-6">
-						<div><Image src="/assets/icon/ic-coffeedark.svg" width={100} height={60}/></div>
+						<div><Image src="/assets/icon/ic-coffeedark.svg" width={100} height={60} alt="content image"/></div>
 						<div style={{ textAlign: 'left' }}>
 							<h6 className="txt-primary-dark font-bold text-xl">Dark coffee</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
@@ -204,13 +204,13 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="row-span-3 flex justify-center">
-					<Image className='absolute' src="/assets/mccafe.png" width={200} height={200} />
+					<Image className='absolute' src="/assets/mccafe.png" width={200} height={200}  alt="content image"/>
 					<div className="grid grid-cols-2 gap-4">
 						<div className="...">
-							<Image src="/assets/flower-l.png" width={150} height={150} style={{ marginTop: '100px', marginRight: '-20px' }}/>
+							<Image src="/assets/flower-l.png" width={150} height={150} style={{ marginTop: '100px', marginRight: '-20px' }} alt="content image"/>
 						</div>
 						<div className="...">
-							<Image src="/assets/flower-r.png" width={150} height={150} style={{ marginTop: '100px', marginLeft: '-10px' }}/>
+							<Image src="/assets/flower-r.png" width={150} height={150} style={{ marginTop: '100px', marginLeft: '-10px' }} alt="content image"/>
 						</div>
 					</div>
 				</div>
@@ -220,21 +220,21 @@ export default function Home() {
 							<h6 className="txt-primary-dark font-bold text-xl">Turkish coffee</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
 						</div>
-						<div><Image src="/assets/icon/ic-coffeeturkish.svg" width={100} height={60}/></div>
+						<div><Image src="/assets/icon/ic-coffeeturkish.svg" width={100} height={60} alt="content image"/></div>
 					</div>
 					<div className="flex p-6">
 						<div style={{ textAlign: 'left' }}>
 							<h6 className="txt-primary-dark font-bold text-xl">Pancakes</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
 						</div>
-						<div><Image src="/assets/icon/ic-coffeepancake.svg" width={100} height={60}/></div>
+						<div><Image src="/assets/icon/ic-coffeepancake.svg" width={100} height={60} alt="content image"/></div>
 					</div>
 					<div className="flex p-6">
 						<div style={{ textAlign: 'left' }}>
 							<h6 className="txt-primary-dark font-bold text-xl">Coffee Bag</h6>
 							<h6 className="txt-primary-dark text-xs">Lorem Ipsum is not simply random text. It has roots in a piece of classica</h6>
 						</div>
-						<div><Image src="/assets/icon/ic-coffeebag.svg" width={100} height={60}/></div>
+						<div><Image src="/assets/icon/ic-coffeebag.svg" width={100} height={60} alt="content image"/></div>
 					</div>
 				</div>
 			</div>
@@ -244,7 +244,7 @@ export default function Home() {
 		<div className="lg:px-8 mx-48 md:pt-16">
 			<div className="grid grid-cols-2 gap-4 relative">
 				<div className="">
-					<Image src='/assets/best-quality.png' width={600} height={600}/>
+					<Image src='/assets/best-quality.png' width={600} height={600} alt="content image"/>
 				</div>
 				<div className="p-6">
 					<span className="dark font-normal" style={{ backgroundImage: 'url("/assets/ellipse.svg")', backgroundRepeat: 'no-repeat', height: '40px', display: 'inline-block' }}>Why Choose us</span>
@@ -254,21 +254,21 @@ export default function Home() {
 					</h6>
 					<div className="my-8">
 						<div className="flex my-3">
-							<Image src="/assets/highqcoffee.svg" width={90}  height={40}/>
+							<Image src="/assets/highqcoffee.svg" width={90}  height={40} alt="content image"/>
 							<div className="px-4 md:w-3/4">
 								<label className="font-bold txt-primary-dark text-xl"> High quality coffee</label><br/>
 								<span className="txt-primary-dark text-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</span><br/>
 							</div>
 						</div>
 						<div className="flex my-3">
-							<Image src="/assets/highqcoffee.svg" width={90}  height={40}/>
+							<Image src="/assets/highqcoffee.svg" width={90}  height={40} alt="content image"/>
 							<div className="px-4 md:w-3/4">
 								<label className="font-bold txt-primary-dark text-xl"> Best chef & Team</label><br/>
 								<span className="txt-primary-dark text-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</span><br/>
 							</div>
 						</div>
 						<div className="flex my-3">
-							<Image src="/assets/highqcoffee.svg" width={90}  height={40}/>
+							<Image src="/assets/highqcoffee.svg" width={90}  height={40} alt="content image"/>
 							<div className="px-4 md:w-3/4">
 								<label className="font-bold txt-primary-dark text-xl"> Promo and deal</label><br/>
 								<span className="txt-primary-dark text-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</span><br/>
@@ -293,23 +293,23 @@ export default function Home() {
 				<div className="bg-slate-400 p-6 bg-secondary-coffee">
 					<div className="grid grid-rows-5 grid-flow-col gap-4">
 						<div className="bg-white h-20 flex px-4">
-							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
+							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5} alt="content image"/>
 							<h6 className="font-semibold txt-primary-dark py-7 px-4">Americano</h6>
 						</div>
 						<div className="bg-primary-coffee h-20 flex px-4">
-							<Image src="/assets/side-espresso.svg" className="py-2 " width={30} height={5}/>
+							<Image src="/assets/side-espresso.svg" className="py-2 " width={30} height={5} alt="content image"/>
 							<h6 className="font-semibold text-white py-7 px-4">Espresso</h6>
 						</div>
 						<div className="bg-white h-20 flex px-4">
-							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
+							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5} alt="content image"/>
 							<h6 className="font-semibold txt-primary-dark py-7 px-4">Arabica</h6>
 						</div>
 						<div className="bg-white h-20 flex px-4">
-							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
+							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5} alt="content image"/>
 							<h6 className="font-semibold txt-primary-dark py-7 px-4">Coffee Stimy</h6>
 						</div>
 						<div className="bg-white h-20 flex px-4">
-							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5}/>
+							<Image src="/assets/side-americano.svg" className="py-2 " width={30} height={5} alt="content image"/>
 							<h6 className="font-semibold txt-primary-dark py-7 px-4">Organic Pack</h6>
 						</div>
 					</div>
@@ -541,11 +541,11 @@ export default function Home() {
 					<Image className="w-full" src="/assets/coffeeblog.png" alt="Sunset in the mountains" width={300} height={400}/>
 					<div className="grid grid-cols-2 gap-4 px-4 py-2">
 						<div className="flex">
-							<Image src="/assets/icon/ic-calendar.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-calendar.svg" width={18} height={5} alt="content image"/>
 							<h6 className="text-xs py-1 px-1">10 Feb, 2022</h6>
 						</div>
 						<div className="flex">
-							<Image src="/assets/icon/ic-user.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-user.svg" width={18} height={5} alt="content image"/>
 							<h6 className="text-xs py-1 px-1">By Ataur</h6>
 						</div>
 					</div>
@@ -568,11 +568,11 @@ export default function Home() {
 					<Image className="w-full" src="/assets/coffeeblog.png" alt="Sunset in the mountains" width={300} height={400} />
 					<div className="grid grid-cols-2 gap-4 px-4 py-2">
 						<div className="flex">
-							<Image src="/assets/icon/ic-calendar.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-calendar.svg" width={18} height={5} alt="content image"/>
 							<h6 className="text-xs py-1 px-1">10 Feb, 2022</h6>
 						</div>
 						<div className="flex">
-							<Image src="/assets/icon/ic-user.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-user.svg" width={18} height={5} alt="content image"/>
 							<h6 className="text-xs py-1 px-1">By Ataur</h6>
 						</div>
 					</div>
@@ -595,11 +595,11 @@ export default function Home() {
 					<Image className="w-full" src="/assets/coffeeblog.png" alt="Sunset in the mountains" width={300} height={400} />
 					<div className="grid grid-cols-2 gap-4 px-4 py-2">
 						<div className="flex">
-							<Image src="/assets/icon/ic-calendar.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-calendar.svg" width={18} height={5} alt="content image"/>
 							<h6 className="text-xs py-1 px-1">10 Feb, 2022</h6>
 						</div>
 						<div className="flex">
-							<Image src="/assets/icon/ic-user.svg" width={18} height={5}/>
+							<Image src="/assets/icon/ic-user.svg" width={18} height={5} alt="content image"/>
 							<h6 className="text-xs py-1 px-1">By Ataur</h6>
 						</div>
 					</div>
@@ -631,22 +631,22 @@ export default function Home() {
 			</div>
 			<div className="grid grid-flow-col auto-cols-max px-8 py-8">
 				<div className="px-8 align-middle">
-					<Image src="/assets/partners/partner-1.svg"  width={150} height={100}/>
+					<Image src="/assets/partners/partner-1.svg"  width={150} height={100} alt="content image"/>
 				</div>
 				<div className="px-8">
-					<Image src="/assets/partners/partner-2.svg"  width={100}  height={100} />
+					<Image src="/assets/partners/partner-2.svg"  width={100}  height={100} alt="content image" />
 				</div>
 				<div className="px-8">
-					<Image src="/assets/partners/partner-3.svg"  width={90}  height={100} />
+					<Image src="/assets/partners/partner-3.svg"  width={90}  height={100} alt="content image" />
 				</div>
 				<div className="px-8">
-					<Image src="/assets/partners/partner-4.svg"  width={80}  height={100} />
+					<Image src="/assets/partners/partner-4.svg"  width={80}  height={100} alt="content image" />
 				</div>
 				<div className="px-8">
-					<Image src="/assets/partners/partner-5.svg"  width={100} height={100}  />
+					<Image src="/assets/partners/partner-5.svg"  width={100} height={100}  alt="content image" />
 				</div>
 				<div className="px-8">
-					<Image src="/assets/partners/partner-6.svg"  width={70}  height={100} />
+					<Image src="/assets/partners/partner-6.svg"  width={70}  height={100} alt="content image" />
 				</div>
 			</div>
 		</div>
